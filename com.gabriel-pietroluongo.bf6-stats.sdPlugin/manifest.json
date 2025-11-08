@@ -1,47 +1,73 @@
 {
-	"Name": "bf6-stats",
-	"Version": "0.1.0.0",
-	"Author": "Gabriel Pietroluongo",
-	"Actions": [
-		{
-			"Name": "Counter",
-			"UUID": "com.gabriel-pietroluongo.bf6-stats.increment",
-			"Icon": "imgs/actions/counter/icon",
-			"Tooltip": "Displays a count, which increments by one on press.",
-			"PropertyInspectorPath": "ui/increment-counter.html",
-			"Controllers": [
-				"Keypad"
-			],
-			"States": [
-				{
-					"Image": "imgs/actions/counter/key",
-					"TitleAlignment": "middle"
-				}
-			]
-		}
-	],
-	"Category": "bf6-stats",
-	"CategoryIcon": "imgs/plugin/category-icon",
-	"CodePath": "bin/plugin.js",
-	"Description": "Shows BF6 stats",
-	"Icon": "imgs/plugin/marketplace",
-	"SDKVersion": 2,
-	"Software": {
-		"MinimumVersion": "6.5"
-	},
-	"OS": [
-		{
-			"Platform": "mac",
-			"MinimumVersion": "12"
-		},
-		{
-			"Platform": "windows",
-			"MinimumVersion": "10"
-		}
-	],
-	"Nodejs": {
-		"Version": "20",
-		"Debug": "enabled"
-	},
-	"UUID": "com.gabriel-pietroluongo.bf6-stats"
+  "Name": "bf6-stats",
+  "Version": "0.1.0.0",
+  "Author": "Gabriel Pietroluongo",
+  "Actions": [
+    {
+      "Name": "Counter",
+      "UUID": "com.gabriel-pietroluongo.bf6-stats.increment",
+      "Icon": "imgs/actions/counter/icon",
+      "Tooltip": "Displays a count, which increments by one on press.",
+      "PropertyInspectorPath": "ui/increment-counter.html",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/counter/key",
+          "TitleAlignment": "middle"
+        }
+      ]
+    },
+    {
+      "Name": "Update",
+      "UUID": "com.gabriel-pietroluongo.bf6-stats.update",
+      "Icon": "imgs/actions/counter/icon",
+      "Tooltip": "Updates stats.",
+      "PropertyInspectorPath": "ui/update-stats.html",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/counter/key",
+          "TitleAlignment": "middle"
+        }
+      ]
+    },
+    {
+      "Name": "Display Stats",
+      "UUID": "com.gabriel-pietroluongo.bf6-stats.display",
+      "Icon": "imgs/actions/counter/icon",
+      "Tooltip": "Displays stats.",
+      "PropertyInspectorPath": "ui/display.html",
+      "Controllers": ["Keypad"],
+      "States": [
+        {
+          "Image": "imgs/actions/counter/key",
+          "TitleAlignment": "middle"
+        }
+      ]
+    }
+  ],
+  "Category": "bf6-stats",
+  "CategoryIcon": "imgs/plugin/category-icon",
+  "CodePath": "bin/plugin.js",
+  "Description": "Shows BF6 stats",
+  "Icon": "imgs/plugin/marketplace",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "6.5"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "12"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Nodejs": {
+    "Version": "20",
+    "Debug": "enabled"
+  },
+  "UUID": "com.gabriel-pietroluongo.bf6-stats"
 }
